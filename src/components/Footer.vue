@@ -23,5 +23,14 @@ footer p {
     margin-left: 0;
     font-size: 14px;
   }
+
+}
+
+@media (max-width: 320px) {
+  footer p {
+    padding: 0 5px;
+
+    font-size: 12px;
+  }
 }
 </style>
