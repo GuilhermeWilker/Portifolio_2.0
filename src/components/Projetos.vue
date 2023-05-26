@@ -157,7 +157,7 @@
 
 <style scoped>
 .project_section {
-  margin-top: 2em;
+  margin-top: 15em;
   height: 100vh;
   width: 100%;
 }
