@@ -94,4 +94,18 @@ nav {
     border-radius: 2px;
   }
 }
+
+@media(max-width: 320px){
+  header {
+    gap: 10px;
+  }
+  .logo {
+    font-size: 15px;
+  }
+
+  nav a {
+   font-size: 12px;
+   padding: 5px;
+  }
+}
 </style>
