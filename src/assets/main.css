@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+#app {
+  font-family: "Poppins", sans-serif;
+
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.router-link-active {
+  font-weight: bold;
+  color: #2c7ae0;
+}
+
+a:hover {
+  color: #2c7ae0;
+}
+
+.bullet {
+  background-color: #2c7ae0;
+  border-radius: 18px;
+  padding: 2px 17px;
+
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.bullet:hover {
+  background-color: #1c67ca;
+}
+
+.bullet-stack {
+  background-color: #2c7ae0;
+  border-radius: 18px;
+  padding: 3px 17px;
+
+  font-size: 14px;
+
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.javascript,
+.firebase {
+  background-color: #fcca3f;
+}
+
+.vue {
+  background-color: #6aaa2f;
+}
+
+.node {
+  background-color: #6aaa2f;
+}
+
+.sql,
+.mysql {
+  background-color: #d3dbf5;
+}
+
+.php {
+  background-color: #6c7eb4;
+}
+
+.router-box {
+  background-color: #f8f1ec;
+  overflow-y: scroll;
+}
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.5s ease-in-out;
+}
+
+.slide-up-enter,
+.slide-up-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
+  transition-delay: 0.2s; /* Atrasa o efeito de opacidade em 0,2 segundos */
+}
+
+.slide-up-enter-to,
+.slide-up-leave {
+  transform: translateY(0);
+  opacity: 1 0.8s;
+  transition-delay: 0s; /* Remove o atraso no efeito de opacidade */
+}
