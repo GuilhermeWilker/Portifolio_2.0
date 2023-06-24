@@ -1,5 +1,36 @@
 <template>
   <section class="project_section">
+    <!-- PHocket -->
+    <div class="card">
+      <div class="img-container">
+        <img src="/projetos/phocket.png" alt="" />
+      </div>
+
+      <div class="project_title-box">
+        <h3 class="project_title">PHocket</h3>
+
+        <div class="stacks">
+          <span class="bullet-stack php">PHP</span>
+          <span class="bullet-stack javascript">Javascript</span>
+          <span class="bullet-stack">CSS</span>
+        </div>
+      </div>
+
+      <p class="project_description">
+        <span class="small-title">Phocket 🪙</span> é uma carteira virtual para
+        monitoramento financeiro. Ajudando os usuários a terem controle sobre
+        sua rentabilidade e despesas.
+        <br />
+      </p>
+
+      <a
+        href="https://github.com/GuilhermeWilker/Phocket"
+        target="_blank"
+        class="project_button"
+        >Repositório</a
+      >
+    </div>
+
     <!-- Partager Player -->
     <div class="card">
       <div class="img-container">
