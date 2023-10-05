@@ -1,33 +1,36 @@
 <template>
   <section class="project_section">
-    <!-- PHocket -->
+    <!-- TimeSync Meetings -->
     <div class="card">
       <div class="img-container">
-        <img src="/projetos/phocket.png" alt="" />
+        <img
+          style="object-fit: cover; border: 1px solid #d4d4d4;"
+          src="/projetos/timesync.png"
+          alt=""
+        />
       </div>
 
       <div class="project_title-box">
-        <h3 class="project_title">PHocket</h3>
+        <h3 class="project_title">TimeSync</h3>
 
         <div class="stacks">
-          <span class="bullet-stack php">PHP</span>
-          <span class="bullet-stack javascript">Javascript</span>
-          <span class="bullet-stack">CSS</span>
+          <span class="bullet-stack php">Laravel</span>
+          <span class="bullet-stack php">Livewire</span>
+          <span class="bullet-stack mysql">Mysql</span>
         </div>
       </div>
 
-      <p class="project_description">
-        <span class="small-title">Phocket 🪙</span> é uma carteira virtual para
-        monitoramento financeiro. Ajudando os usuários a terem controle sobre
-        sua rentabilidade e despesas.
-        <br />
+      <p class="project_description" style="text-align: left;">
+        TimeSync Meetings é uma solução projetada para simplificar e otimizar o
+        agendamento de reuniões, tornando-o flexível e eficiente tanto para
+        organizadores quanto para seus convidados.
       </p>
 
       <a
-        href="https://github.com/GuilhermeWilker/Phocket"
+        href="https://www.linkedin.com/feed/update/urn:li:activity:7108068005292486656/"
         target="_blank"
         class="project_button"
-        >Repositório</a
+        >Acessar</a
       >
     </div>
 
@@ -125,6 +128,37 @@
       >
     </div>
 
+    <!-- PHocket -->
+    <div class="card">
+      <div class="img-container">
+        <img src="/projetos/phocket.png" alt="" />
+      </div>
+
+      <div class="project_title-box">
+        <h3 class="project_title">PHocket</h3>
+
+        <div class="stacks">
+          <span class="bullet-stack php">PHP</span>
+          <span class="bullet-stack javascript">Javascript</span>
+          <span class="bullet-stack">CSS</span>
+        </div>
+      </div>
+
+      <p class="project_description">
+        <span class="small-title">Phocket 🪙</span> é uma carteira virtual para
+        monitoramento financeiro. Ajudando os usuários a terem controle sobre
+        sua rentabilidade e despesas.
+        <br />
+      </p>
+
+      <a
+        href="https://github.com/GuilhermeWilker/Phocket"
+        target="_blank"
+        class="project_button"
+        >Repositório</a
+      >
+    </div>
+
     <!-- Ask.ME -->
     <div class="card">
       <div class="img-container">
@@ -148,34 +182,6 @@
 
       <a
         href="https://www.linkedin.com/feed/update/urn:li:activity:7006646867572715520/"
-        target="_blank"
-        class="project_button"
-        >Acessar</a
-      >
-    </div>
-
-    <!-- Luminária Livrolas -->
-    <div class="card">
-      <div class="img-container">
-        <img src="/projetos/luminaria-livrolas.png" alt="" />
-      </div>
-
-      <div class="project_title-box">
-        <h3 class="project_title">Luminária Livrolas</h3>
-
-        <div class="stacks">
-          <span class="bullet-stack javascript">Javascript</span>
-        </div>
-      </div>
-
-      <p class="project_description">
-        Ambiente de leitura virtual, aconchegante e clean. Facilitando e
-        deixando a leitura do usuário menos maçante durante suas viagens
-        literárias.
-      </p>
-
-      <a
-        href="https://guilhermewilker.github.io/luminaria-livrolas/"
         target="_blank"
         class="project_button"
         >Acessar</a
@@ -248,6 +254,7 @@ span {
 
   font-size: 14px;
   transition: 0.5s ease-in-out;
+  border-radius: 5px;
 }
 
 .project_button:hover {

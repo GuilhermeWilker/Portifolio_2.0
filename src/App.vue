@@ -11,7 +11,7 @@ const stacks = [
   { src: "/images/stacks/nuxt.png", alt: "Nuxt.js" },
   { src: "/images/stacks/react.js.png", alt: "React.js" },
   { src: "/images/stacks/sass.png", alt: "Sass" },
-  { src: "/images/stacks/figma.png", alt: "Figma" },
+  { src: "/images/stacks/laravel.png", alt: "Laravel" },
   { src: "/images/stacks/firebase.png", alt: "Firebase" },
   { src: "/images/stacks/node.js.png", alt: "Node.js" },
   { src: "/images/stacks/php.png", alt: "PHP" },
@@ -27,13 +27,13 @@ const stacks = [
         <h4>
           Olá! Me chamo <span class="bullet">UX~UI</span
           ><span class="bullet">Front-end</span
-          ><span class="bullet">Freelancer</span>
+          ><span class="bullet">Fullstack</span>
         </h4>
         <h1>Guilherme Wilker</h1>
 
         <p>
-          Entusiasta no Desenvolvimento Frontend buscando constantemente me
-          atualizar em novas tecnologias e tendências de mercado.
+          Entusiasta no Desenvolvimento Web buscando constantemente me atualizar
+          em novas tecnologias e tendências de mercado.
         </p>
       </div>
 
